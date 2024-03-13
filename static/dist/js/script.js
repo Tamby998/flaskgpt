@@ -70,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         sendIcon.classList.add("hidden");
 
         const prompt = form.elements.prompt.value;
+        form.elements.prompt.value = "";
         addToLog(prompt);
 
         try {
